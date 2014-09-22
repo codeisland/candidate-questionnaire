@@ -156,7 +156,7 @@ html {
 h1, h2, h3, h4, h5, h6, p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-  text-transform: uppercase;
+
 }
 
 #wrap, .form {
@@ -166,7 +166,13 @@ h1, h2, h3, h4, h5, h6, p {
   max-width: 1200px;
 }
 
-h1 {font-size: 1.8em; letter-spacing: 0.05em; margin: 1em 0; color: #444;}
+h1 {font-size: 1.8em; letter-spacing: 0.05em; margin: 1em 0; color: #444;   text-transform: uppercase;}
+
+h2 {margin-bottom: 1em; text-transform: uppercase;}
+
+.letter, .faq {max-width: 750px; padding: 0 5.5%; margin: 1em auto 2em auto; text-align: left; }
+
+p {text-align: left; font-family: Helvetica, Arial, sans-serif; margin-bottom: 1.5em; font-size: 1em; line-height: 1.3em; }
 
 
 .banner {
