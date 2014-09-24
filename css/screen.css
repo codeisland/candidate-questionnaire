@@ -183,3 +183,13 @@ p {text-align: left; font-family: Helvetica, Arial, sans-serif; margin-bottom: 1
 }
 
 .banner img {height: 120px; margin: 0 2%; }
+
+ul {
+	margin: 0 0 1em 1em;
+}
+
+ul li {
+	font-weight: normal;
+	list-style-type: square;
+	list-style-position: outside;
+}
