@@ -159,11 +159,39 @@ h1, h2, h3, h4, h5, h6, p {
 
 }
 
-#wrap, .form {
+#wrap, .form, .response {
   margin: 0 auto;
   padding: 0;
   clear: both;
   max-width: 1400px;
+}
+
+.response {
+	text-align: left;
+	padding: 0 1em;
+	max-width: 840px;
+}
+
+.response h2 {
+	text-align: center;
+	font-size: 1.5em;
+	padding: 1em 0;
+}
+
+.response h2 em {
+	font-style: normal;
+	font-weight: bold;
+	color: #D5143A;
+}
+
+.response h3 {font-size: 1.25em; padding: 1em 0 .25em 0; border-top: 2px dotted #ccc;}
+.response h4 {font-size: .9em; padding: 0 0 1em 0; color: #555; font-weight: normal;}
+
+.response blockquote {
+	padding-left: 1em;
+	border-left: 5px solid #ddd;
+	margin: 1em 0 3em 0;
+	font-style: italic;
 }
 
 h1 {font-size: 1.8em; letter-spacing: 0.05em; margin: 1em 0; color: #444;   text-transform: uppercase;}
@@ -192,4 +220,46 @@ ul li {
 	font-weight: normal;
 	list-style-type: square;
 	list-style-position: outside;
+}
+
+ul.menu {
+	margin: 0; padding: 0;
+	text-align: center;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+ul.menu li {
+	list-style: none;
+}
+
+ul.menu li a {
+	text-decoration: none;
+	display: block;
+	padding: .5em 0;
+	color: #D02842;
+	border-bottom: 3px dotted #ccc;
+}
+
+ul.menu li a:hover {
+	background: #eee;
+}
+
+a.button {
+	display: block;
+	padding: 1em;
+	font-size: 1.5em;
+	color: #D02842;
+	background: #ddd;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	text-decoration: none;
+	margin: 1em auto;
+}
+
+a.button:hover {
+	background: #D02842;
+	color: #fff;
 }
