@@ -169,7 +169,6 @@ h1, h2, h3, h4, h5, h6, p {
 .response {
 	text-align: left;
 	padding: 0 2%;
-	width: 90%;
 	overflow-x: hidden;
 	max-width: 840px;
 }
@@ -213,6 +212,7 @@ p {text-align: left; font-family: Helvetica, Arial, sans-serif; margin-bottom: 1
 }
 
 .banner img {height: 120px; margin: 0 2%; }
+.banner.small img {height: 80px;}
 
 ul {
 	margin: 0 0 1em 1em;
