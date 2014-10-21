@@ -169,6 +169,7 @@ h1, h2, h3, h4, h5, h6, p {
 .response {
 	text-align: left;
 	padding: 0 1em;
+	width: 93%;
 	max-width: 840px;
 }
 
